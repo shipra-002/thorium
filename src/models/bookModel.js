@@ -9,9 +9,10 @@ const bookSchema = new mongoose.Schema( {
     },
     price: Number,
     ratings: Number
+    //publisher
 
 
 }, { timestamps: true });
 
 
-module.exports = mongoose.model('LibraryBook', bookSchema)
+//module.exports = mongoose.model('librarybooks, bookSchema)
