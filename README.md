@@ -1,3 +1,4 @@
+
 # Next() :
 - it is a callback function in a middleware
 - it passses the control to the subsequent function
@@ -21,6 +22,7 @@ function MiddlewareIfLoggedIn( req, res, next) {
     if loggedIn then call the next fucntion/handler which will give us the home page feeds
     else res.send( " please login or register")
  }
+
 
 
 <!--  e.g. restricted and open-to-all API's can be handled like below now: -->
