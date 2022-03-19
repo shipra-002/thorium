@@ -42,6 +42,7 @@ Create API's to do each of the following:
             password meme@123
 
             4. Return a response with a body like this
+
             "data": {
                     "url": "https://i.imgflip.com/5mvxax.jpg",
                     "page_url": "https://imgflip.com/i/5mvxax"
